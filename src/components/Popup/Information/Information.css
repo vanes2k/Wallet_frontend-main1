@@ -1,0 +1,60 @@
+.pup__window{
+    position: absolute;
+    width: 230px;
+    height: 135px;
+    display: flex;
+    border-radius: 16px;
+    flex-direction: column;
+    padding: 10px 15px 15px 15px;
+    z-index: 2;
+    justify-content: space-between;
+    background-color: var(--color-white);
+}
+.pup__text{
+    font-size: 14px;
+    padding-bottom: 5px;
+    margin: 0;
+    color: var(--color-grey);
+}
+.pup__header{
+    margin-left: 12px;
+    font-size: 16px;
+    color: var(--color-text-head);
+}
+.realty-card{
+    width: 40px;
+    height: 44px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pup__window__header{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 9px;
+}
+.pup__window__footer{
+    margin-top: 30px;
+    z-index: 0;
+}
+.pup__window__footer{
+    position: absolute;
+    width: 15px;
+    height: 20px;
+    z-index: 0;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    background-color: var(--color-white);
+    transform: translate(-5px, 105px) skewY(42deg) rotate(20deg);
+}
+.pup__window__main{
+    margin-bottom: 20px;
+}
+.pup__text-black{
+    color: var(--color-black);
+}
+.pup__text-green{
+    color: var(--success);
+}

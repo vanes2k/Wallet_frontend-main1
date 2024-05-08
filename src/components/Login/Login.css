@@ -1,0 +1,25 @@
+.link_reset {
+  display: inline-block;
+  width: 100%;
+  text-align: right;
+  margin-top: 4px;
+  margin-bottom: 8px;
+}
+
+.paragraph_login {
+  text-align: left;
+  margin-top: 12px;
+  margin-bottom: 146px;
+}
+
+.button__icon {
+  background-image: url(../../images/technically-icons/d-ddd-arrow-right.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 36px;
+  height: 36px;
+  background-color: #FEFEFE;
+  border-radius: 40px;
+  position: absolute;
+  right: 32px;
+}

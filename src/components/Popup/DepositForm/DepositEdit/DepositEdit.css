@@ -1,0 +1,86 @@
+.title_deposit{
+    color: var(--color-text-grey) ;
+    font-size: 16px;
+    padding: 10px 0;
+}
+.deposit__switch-header{
+    border-bottom: 2px solid var(--color-text-grey);
+    width: 50%;
+}
+.deposit__switch{
+    display: flex;
+    background-color: var(--color-light-grey-button);
+}
+.active-switch{
+    border-bottom: 2px solid var(--color-text-head);
+}
+.active-title{
+    color: var(--color-text-head);
+}
+.bg-grey-deposit{
+    height: 230px;
+    min-height: 100px;
+    overflow: scroll;
+    padding: 16px 24px 40px 24px;
+    background-color: var(--color-light-grey-button);
+}
+.bg-grey-full-deposit{
+    height: 230px;
+    min-height: 100px;
+    overflow: scroll;
+    padding: 16px 24px 40px 24px;
+    background-color: var(--color-light-grey-button);
+}
+.bg-grey-deposit::-webkit-scrollbar{
+    display: none;
+}
+.bg-grey-full-deposit::-webkit-scrollbar{
+    display: none;
+}
+.deposit__footer{
+    display: flex;
+    justify-content: center;
+}
+.deposit__footer-text{
+    width: 80%;
+    height: 52px;
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    color: var(--color-text-head);
+}
+.deposit__footer-none{
+    display: none;
+}
+.deposit__add{
+    height: 320px;
+    min-height: 100px;
+    overflow: scroll;
+    padding: 16px 24px 40px 24px;
+    background-color: var(--color-light-grey-button);
+}
+.deposit__add::-webkit-scrollbar{
+    display: none;
+}
+.add-operation{
+    width: 252px;
+    margin: 30px auto 0 auto;
+}
+.deposit__add-text{
+    display: block;
+    width: 350px;
+    margin: 0 auto;
+}
+.button-mx{
+    width: 244px;
+    margin: 0;
+}
+.margin-no-bottom{
+    margin-bottom: 0;
+}
+.display-block{
+    display: block;
+}
+.box-deposit{
+    bottom: 15px;
+}

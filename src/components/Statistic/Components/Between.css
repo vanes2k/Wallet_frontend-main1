@@ -1,0 +1,113 @@
+.statisticBetweenWrapper_card-wrapper {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  justify-content: center;
+  align-items: center;
+  row-gap: 4%;
+}
+.statisticBetweenWrapper_card-wrapper_card {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sota-wrapperBeetwen {
+  position: relative;
+  width: 316px;
+  height: 282px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.sotaBeetwen {
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    180deg,
+    rgba(158, 206, 226, 1) 0%,
+    rgba(50, 126, 157, 1) 100%
+  );
+  width: 55%;
+  height: 100%;
+  border-radius: 18px;
+  box-shadow: 4px 8px 16px rgba(28, 88, 113, 0.3);
+  margin-bottom: 50px;
+  flex-direction: column;
+}
+.statistic__section-sota_Betweencard-list_precent {
+  color: #6ae332;
+  display: flex;
+  font-size: 20px;
+}
+.sota-wrapperBeetwenPortfile {
+  font-size: 20px;
+  color: #1a4b5f;
+  font-weight: 600;
+}
+.sotaBeetwen:before,
+.sotaBeetwen:after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+  transform-origin: center;
+  border: inherit;
+  z-index: 1;
+}
+.statistic__section-sota_Betweencard-list_number span {
+  margin-left: 5px;
+}
+.statistic__section-sota_Betweencard-list_number {
+  color: #6ae332;
+  font-size: 20px;
+}
+.sotaBeetwen:before {
+  transform: rotateZ(61deg);
+  border-radius: 11px 22px 23px 20px;
+  background: linear-gradient(
+    120deg,
+    rgba(158, 206, 226, 1) 0%,
+    rgba(50, 126, 157, 1) 100%
+  );
+}
+.statistic__section-sota_Betweencard-list_number {
+  margin: 8px 0 !important;
+}
+.sotaBeetwen:after {
+  transform: rotateZ(-60deg);
+  border-radius: 23px 15px 23px 25px;
+  background: linear-gradient(
+    240deg,
+    rgba(158, 206, 226, 1) 0%,
+    rgba(50, 126, 157, 1) 100%
+  );
+}
+.sotaBeetwen p {
+  z-index: 3;
+}
+.sotaBeetwen span {
+  z-index: 3;
+}
+.portfail {
+  font-size: 20px;
+  font-weight: 600;
+}
+.sota-wrapperBeetwenPrice span {
+  margin-left: 5px;
+}
+.sota-wrapperBeetwenPrice {
+  background-color: white;
+  padding: 10px 15px;
+  font-weight: 700;
+  font-size: 25px;
+  border-radius: 30px;
+}
+.sota-wrapperBeetwenPortfile {
+  margin: 0;
+  font-size: 18px;
+}

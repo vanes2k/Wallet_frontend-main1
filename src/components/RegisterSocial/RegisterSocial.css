@@ -1,0 +1,53 @@
+.login__icon-contaner {
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px auto 16px;
+}
+
+.login__icon {
+  width: 40px;
+  height: 40px;
+}
+
+.login__icon:hover {
+  cursor: pointer;
+}
+
+.login__icon_ya {
+  background-image: url(../../images/technically-icons/ya-logo.svg);
+}
+
+.login__icon_mail {
+  background-image: url(../../images/technically-icons/mail-logo.svg);
+}
+
+.paragraph_social-info {
+text-align: center;
+}
+
+.swing-button_signin {
+width: 260px;
+position: absolute;
+top:0;
+left: 0;
+z-index: 1;
+text-align: left;
+padding-left: 110.5px;
+}
+
+.swing-button_signup {
+width: 260px;
+position: absolute;
+top: 0;
+right: 0;
+z-index: 1;
+text-align: right;
+padding-right: 79px;
+}
+
+.swing-button__container_login {
+width: 520px;
+height: 52px;
+margin: 40px auto 24px;
+}

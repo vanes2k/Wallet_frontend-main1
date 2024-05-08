@@ -1,0 +1,33 @@
+.auth-container {
+  box-sizing: border-box;
+  width: 600px;
+  height: 800px;
+  background-color: var(--color-white);
+  border-radius: 40px;
+  padding: 40px 40px 0;
+  position: relative;
+  box-shadow: 4px 4px 8px 0px rgba(166, 166, 166, 0.15);
+}
+
+.go-back-button {
+  background-image: var(--go-back-icon);
+  background-repeat: no-repeat;
+  width: 24px;
+  height: 24px;
+  border: 0;
+  background-color: transparent;
+  padding: 0;
+  position: absolute;
+  /* left: 56px; */
+  top: 53px;
+}
+
+.go-back-button:hover {
+  cursor: pointer;
+}
+
+.auth__orange-button {
+  width: 100%;
+}
+
+

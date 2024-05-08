@@ -1,0 +1,20 @@
+.auth-container_confirm {
+    padding: 80px 24px 0;
+}
+
+.confirm__form {
+    padding-top: 52px;
+    
+}
+.auth__white-button {
+   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.paragraph_confirm {
+    text-align: left;
+    margin-top: 16px;
+    margin-bottom: 260px;
+}

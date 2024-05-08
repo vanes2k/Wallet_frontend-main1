@@ -1,0 +1,43 @@
+.confirmation {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.confirm {
+  margin: 78px auto 12px;
+width: 160px;
+height: 160px;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+.confirm_ok {
+background-image: url('../../../images/technically-icons/confirm-ok.svg');
+}
+
+.confirm_error {
+  background-image: url('../../../images/technically-icons/confirm_error.svg');
+}
+.confirm_change-password {
+  background-image: url('../../../images/technically-icons/confirm_change-pass_ok.svg');
+}
+
+.confirm_paragraph {
+  width: 500px;
+
+  text-align: center;
+  margin: 28px auto 156px!important;
+}
+
+.confirmation_change-password {
+  height: 624px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.confirmation__form-flex-wraper {
+  margin: 0!important;
+}

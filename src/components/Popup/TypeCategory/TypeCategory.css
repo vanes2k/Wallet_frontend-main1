@@ -1,0 +1,95 @@
+.stocks {
+  background-image: url('../../../images/active-icon/icon-stocks.svg');
+}
+.bike {
+  background-image: url('../../../images/active-icon/icon-motocycle.svg');
+}
+.money {
+  background-image: url('../../../images/active-icon/icon-money.svg');
+}
+.metals {
+  background-image: url('../../../images/active-icon/icon-metals.svg');
+}
+.realty {
+  background-image: url('../../../images//active-icon/icon-realty.svg');
+}
+.bitcoin {
+  background-image: url('../../../images/active-icon/icon-bitcoin.svg');
+}
+.deposit {
+  background-image: url('../../../images/active-icon/icon-vklad.svg');
+}
+.transport {
+  background-image: url('../../../images/active-icon/icon-transport.svg');
+}
+.digital-ruble {
+  background-image: url('../../../images/active-icon/icon-realty.svg');
+}
+.broker-account {
+  background-image: url('../../../images/active-icon/icon-realty.svg');
+}
+.reset {
+  background-image: url('../../../images/active-icon/icon-reset.svg');
+}
+
+.category {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 24px 0 0;
+}
+.category__all {
+  padding: 60px 50px 0;
+}
+
+.category-button {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+
+  color: var(--color-black);
+  position: relative;
+  display: flex;
+  box-sizing: border-box;
+  height: 68px;
+  align-items: center;
+  width: 100%;
+  border: 0;
+  border-radius: 40px;
+  background-color: var(--color-light);
+  box-shadow: 4px 4px 8px 0px rgba(0, 84, 168, 0.10);
+  margin-bottom: 16px;
+  padding: 12px 16px;
+}
+
+.category-button:hover {
+  cursor: pointer;
+  border: 1.5px solid var(--orange-button-default);
+}
+
+.category-button:active {
+  border: 2px solid var(--orange-button-pressed);
+}
+
+.category-button:disabled {
+  background-color: var(--color-button-disabled);  
+  border: 0;
+  color: var(--color-text-grey)
+}
+
+.category__button-icon {
+  position: absolute;
+  right: 16px;
+  top: 16px;
+  width: 36px;
+  height: 36px;
+  border-radius: 40px;
+  background-color: var(--color-light-grey-button);
+  background-image: url('../../../images//technically-icons/button-icon.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.card-icon_categores {
+  margin: 0;
+}

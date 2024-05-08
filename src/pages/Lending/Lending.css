@@ -1,0 +1,1135 @@
+.lending {
+  width: 100%;
+  background-color: #FEFEFE;
+  overflow: hidden;
+}
+
+.lending-header {
+  padding: 32px 70px;
+  box-sizing: border-box;
+  height: 127px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.landing__swing-button {
+  color: #171717;
+  border-color: #1A4B5F;
+  background-color: #FEFEFE;
+}
+.landing__swing-button__container {
+  background-color: #E8EBF2;
+}
+.landing__swing-button_disabled {
+  background-color: #E8EBF2;
+  color: #6A6B6C;
+  border: 0;
+  z-index: 0;
+}
+
+.logo {
+  box-sizing: content-box;
+  display: flex;
+  align-items: center;
+}
+
+.logo__text {
+  width: 146px;
+  margin: 0;
+  font-size: #171717;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+}
+
+.logo__image {
+  width: 60px;
+  height: 63px;
+  margin-right: 12px;
+} 
+
+.lending-menu {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  height: 45px;
+}
+
+.nav__item {
+  color: #6A6B6C;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+  text-decoration: none;
+   padding: 12px 24px;
+}
+
+.nav__item:hover {
+  cursor: pointer;
+  color: #1A4B5F;
+  border-bottom: 2px solid #1A4B5F;
+}
+
+.lending__header__buttons {
+  display: flex;
+  width: 350px;
+  justify-content: space-between;
+}
+
+.to-login {
+  width: 114px;
+  margin-top: 0;
+}
+
+.to-register {
+  width: 220px;
+  margin-top: 0;
+}
+
+
+.landing__title {
+  text-align: center;
+  font-size: 38px;
+  color: #1A4B5F;
+  font-style: normal;
+  font-weight: 600; 
+  line-height: 130%;
+  margin: 0;
+}
+.landing__paragraph {
+  margin: 0;
+  color: #171717;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 130%;
+}
+.landing__white-button {
+  color: #171717;
+  background-color: #FEFEFE;
+}
+.landing__close-button {
+  background-image: url('../../images/technically-icons/exit-icon.svg')!important;
+}
+
+/* PROMO */
+.promo {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 80px 0;
+  background-image: url('../../images/lending/bg-image-1.png');
+  background-position: center;
+}
+
+.promo__title {
+  max-width: 737px;
+  font-size: 48px;
+  line-height: 110%; 
+  margin: 0 auto;
+}
+
+.promo__paragraph {
+  max-width: 737px;
+  text-align: center;
+  margin: 16px auto 32px;
+}
+
+.promo-button {
+  width: 325px;
+  margin: 0 auto;
+}
+
+
+/* ABOUT */
+
+.about-project {
+  padding: 80px 66px;
+}
+
+.about-project__container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.about-project__container_cards {
+  margin: 0 auto 20px;
+
+}
+
+.about-card {
+  width: 32.1%;
+  height: 553px;
+  background-color: #F7F9FB;
+  border-radius: 24px;
+  box-shadow: 4px 4px 8px 0px rgba(166, 166, 166, 0.15);
+}
+
+.about-card__title {
+  margin: 32px 0 0;
+  padding-bottom: 8px;
+  color: #184253;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%; 
+}
+
+.about-card__paragraph {
+  font-size: 18px;
+  font-style: normal;
+  line-height: 150%;
+  margin: 12px 0 0;
+}
+
+.about-card__image {
+  border-bottom: 2px solid #1A4B5F;
+  width: 100%;
+  max-height: 280px;
+}
+
+.about-project__info {
+  box-sizing: border-box;
+  max-width: 380px;
+  margin: 0 20px 20px;
+}
+.about-project__info_big {
+  max-width: 530px;
+  margin: 48px 0 20px 0;
+}
+
+.about-project__image {
+  max-width: 758px;
+  border-radius: 24px;
+  box-shadow: 4px 4px 8px 0px rgba(166, 166, 166, 0.15);
+}
+
+
+/* PROMO - TWO */
+
+.promo-two {
+  background-color: #F7F9FB;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+  background-image: url('../../images/lending/bg-image-2.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+  padding: 44px 290px;
+}
+
+
+.paragraph_big {
+  text-align: center;
+  width: 860px;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  margin: 40px 0;
+}
+
+
+/* ADVANTAGES */
+
+.advantages {
+  box-sizing: border-box;
+  padding: 80px 70px 40px;
+}
+
+.advantages__cards {
+  display: flex;
+  justify-content: space-between;
+  margin: 24px 0 40px;
+}
+
+.advantages__title {
+  text-align: left;
+  margin-bottom: 32px;
+}
+
+.advantages-card {
+  position: relative;
+  box-sizing: border-box;
+  width: 23.85%;
+  height: 420px;
+  border-radius: 40px;
+  padding: 60px 56px 60px 20px;
+}
+
+#c1 {
+  background-color: rgba(254, 233, 229, 0.6);
+}
+
+#c2 {
+  background-color: rgba(223, 236, 240, 0.6);
+}
+
+#c3 {
+  background-color: 
+  rgba(222, 239, 232, 0.6);
+}
+
+#c4 {
+  background-color: rgba(247, 233, 248, 0.6);
+}
+
+.advantages-card-info {
+  position: absolute;
+  width: 234px;
+}
+
+#c2 .advantages-card-info {
+  bottom: 60px;
+  left: 20px;
+}
+
+#c4 .advantages-card-info {
+  bottom: 40px;
+  left: 20px;
+}
+
+.advantages-card__3D-icon {
+  position: absolute;
+  width: 292px;
+  height: 303px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#c1 .advantages-card__3D-icon {
+  bottom: -54px;
+  right: 10px;
+  background-image: url('../../images/lending/advantages-diagram.svg');
+}
+
+#c2 .advantages-card__3D-icon {
+  top: -25px;
+  right: -25px;
+  background-image: url('../../images/lending/advantages-look.svg');
+}
+
+#c3 .advantages-card__3D-icon {
+  bottom: -48px;
+  left: -14px;
+  background-image: url('../../images/lending/advantages-safe.svg');
+}
+
+#c4 .advantages-card__3D-icon {
+  top: -85px;
+  right: -10px;
+  background-image: url('../../images/lending/advantages-order.svg');
+}
+
+.advantages-card__title {
+  color: #171717;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+  margin: 0 0 12px;
+}
+
+
+
+/* RATES */
+.rates {
+  padding: 42px 70px 44px;
+  background-color: #F7F9FB;
+}
+.advantages__title_rates {
+  max-width: 750px;
+}
+.rates-card {
+  box-sizing: border-box;
+  width: 361px;
+  height: 507px;
+  padding: 40px 24px;
+  border-radius: 40px;
+  background-color: #FEFEFE;
+  box-shadow: 4px 4px 8px 0px rgba(166, 166, 166, 0.15);
+}
+.rates-card__title {
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  margin: 0 0 16px;
+}
+.rates-card__paragraph {
+  max-width: 280px;
+  padding-top: 4px;
+  
+}
+.rates__button {
+  margin: 43px auto 0;
+  width: 300px;
+}
+.rates-card__icon {
+  display: inline-block;
+  background-image: url('../../images/lending/sota-icon.svg');
+  width: 20px;
+  height: 23px;
+}
+
+
+.rates-card__paragraph-container {
+  display: flex;
+  padding-top: 20px;
+  gap: 13px;
+}
+.rates__container {
+  justify-content: center;
+  gap: 40px;
+}
+
+.rates-title__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.advantages__title_rates {
+  margin: 0;
+}
+
+.rates-swing-button {
+  width: 314px;
+  height: 52px;
+}
+.swing-button_rates {
+  padding: 0 23.7px;
+}
+
+
+
+/* FOOTER */
+
+.footer {
+  margin-top: 120px;
+  background-color: #DFECF0;
+}
+
+.footer-link {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  color: #171717;
+  text-decoration: none;
+}
+.footer-link:hover {
+  cursor: pointer;
+  color: #1A4B5F;
+  border-bottom: 2px solid #1A4B5F;
+}
+
+.footer__menu {
+  box-sizing: border-box;
+  padding: 51px 0 8px 70px;
+  max-width: 860px;
+  display: grid;
+  grid-template-columns: 330px 220px 310px;
+  grid-template-rows: 63px auto;
+  row-gap: 5px;
+  max-width: 860px;
+  grid-template-areas: 
+    'logo about-title docs-title'
+    'logo about docs';
+}
+
+.footer-menu {
+  margin: 0;
+  padding: 0;
+}
+
+.footer-menu__paragraph {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.logo_footer {
+  grid-area: logo;
+  align-self:flex-start;
+}
+
+.footer__title {
+  align-self: center;
+  margin: 0;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+  color: #1A4B5F; 
+}
+
+.about-title {
+  grid-area: about-title;
+}
+
+.docs-title {
+  grid-area: docs-title;
+}
+
+.footer__about {
+  grid-area: about;
+}
+
+.footer__docs {
+  grid-area: docs;
+}
+
+.footer__cookie-info {
+  background-color: var(--color-modal);
+  padding: 16px 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__paragraph {
+  color: #F7F9FB;
+  max-width: 1170px;
+}
+.footer__link  {
+  font-weight: 500;
+  text-decoration-line: underline;
+  color: var(--color-white);
+}
+
+.footer__button {
+  width: 120px;
+  margin: 0;
+}
+
+
+.burger {
+  box-sizing: border-box;
+  display: none;
+  width: 24px;
+  height: 24px;
+  /* border: 1px solid red; */
+  margin-right: 20px;
+  background: no-repeat center url('../../images/lending/burger.svg');
+}
+
+.burger:hover {
+  cursor: pointer;
+}
+.burger__menu {
+  display: none;
+  position: absolute;
+  z-index: 6;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  min-height: 536px;
+  border-radius: 0 30px 30px 0;
+  padding: 12px 16px 60px;
+  background-color: #FFF;
+}
+
+.lending-menu_burger {
+  padding-top: 12px;
+  height: auto;
+}
+.nav__item_burger {
+  font-size: 20px;
+}
+.burger__button {
+  width: 325px;
+  height: 37px;
+  margin: 12px auto 0;
+}
+
+
+
+@media all and (max-width:1250px) {
+  .scroll-wrapper {
+    width: 100%;
+    overflow-x: scroll;
+  }
+
+  .scroll-wrapper::-webkit-scrollbar {
+    width: 0;
+  }
+
+  .lending-header {
+    padding: 20px 40px 20px 48px;
+    height: auto;
+  }
+
+  .nav__item {
+     padding: 12px 12px;
+  }
+
+  .lending__header__buttons {
+    width: 314px;
+  }
+
+  .to-login {
+    width: 114px;
+    height: 40px;
+    margin-top: 0;
+  }
+  
+  .to-register {
+    width: 192px;
+    height: 40px;
+    margin-top: 0;
+  }
+
+  .about-card {
+    width: 336px;
+    height: 553px;
+  }
+
+  .about-card__title {
+    margin-top: 24px;
+  }
+
+
+
+.about-project__container_cards {
+  overflow:hidden;
+  width: 1040px;
+  margin: 0 auto ;
+
+}
+
+.about-project__image {
+  margin: 0 auto;
+  /* max-width: 600px; */
+  border-radius: 24px;
+  box-shadow: 4px 4px 8px 0px rgba(166, 166, 166, 0.15);
+}
+
+.about-project__info_big {
+  max-width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+.about-card__title_big {
+  margin-top: 20px;
+}
+
+.about-project__container_big {
+  flex-direction: column-reverse;
+}
+.about-project__info_big {
+  max-width: 100%;
+  margin: 0;
+}
+.about-card__title_big {
+  margin-top: 20px;
+}
+
+.advantages__cards {
+  width: 1040px;
+}
+.advantages-card {
+  width: 248px;
+  height: 290px;
+  padding: 40px 20px 0;
+} 
+  
+#c1 .advantages-card__3D-icon {
+  width: 160px;
+  height: 192px;
+  background-size: contain;
+  bottom: -40px;
+  right: 43px;
+  background-image: url('../../images/lending/advantages-diagram.svg');
+}
+
+#c2 .advantages-card__3D-icon {
+  width: 140px;
+  height: 180px;
+  background-size:cover;
+  top: -20px;
+  right: 55px;
+  background-image: url('../../images/lending/advantages-look.svg');
+}
+
+#c3 .advantages-card__3D-icon {
+  width: 140px;
+  height: 140px;
+  background-size: contain;
+  bottom: -23px;
+  left: 54px;
+  background-image: url('../../images/lending/advantages-safe.svg');
+}
+
+#c4 .advantages-card__3D-icon {
+  width: 160px;
+  height: 125px;
+  background-size: contain;
+  top: -25px;
+  right: -15px;
+  background-image: url('../../images/lending/advantages-order.svg');
+}
+
+.advantages-card-info  {
+  width: 200px;
+}
+#c2 .advantages-card-info {
+  /* width: 200px; */
+  bottom: 35px;
+  left: 20px;
+}
+
+#c4 .advantages-card-info {
+  width: 208px;
+  bottom: 35px;
+  left: 20px;
+}
+
+.rates-title__container {
+  display: block
+}
+.advantages__title_rates {
+  /* max-width: 528px; */
+  text-align: center;
+  margin: 0 auto 20px;
+}
+
+.rates-swing-button {
+  margin: 0 auto 32px;
+}
+.rates__button {
+  height: 37px;
+  width: 100%;
+  margin: 24px 0 0;
+}
+.rates-card__title {
+  margin-bottom: 12px;
+}
+.rates__container {
+  gap: 16px;
+}
+}
+
+
+
+
+@media all and (max-width:1100px) {
+
+  .logo__image_header {
+    display: none;
+  }
+
+  .lending-menu {
+    display: none;
+  }
+
+.promo {
+  padding: 20px 0 50px;
+}
+.promo-two {
+  padding: 75px 0 76px;
+  background-image: url('../../images/lending/bg-image-2_s.svg');
+}
+
+.promo__title {
+  max-width: 520px;
+  line-height: 130%; 
+
+}
+
+.promo__paragraph {
+  max-width: 480px;
+  text-align: center;
+  margin: 16px auto 32px;
+}
+
+.promo-button {
+  width: 325px;
+  height: 37px;
+}
+
+
+.about-project {
+  padding: 40px 0 40px 40px;
+  overflow-x: scroll;
+}
+
+.about-project__image {
+  width: 100%;
+}
+
+.about-project__container_big {
+  flex-direction: column-reverse;
+}
+.about-project__info_big {
+  max-width: 100%;
+  margin: 0;
+}
+
+.about-card__title_big {
+  margin-top: 20px;
+}
+
+.paragraph_big {
+  max-width: 511px;
+  font-size: 20px;
+  margin: 24px auto 32px
+}
+
+
+.advantages {
+  padding: 40px 0 50px 20px;
+}
+.advantages__title {
+  margin-bottom: 24px;
+}
+
+.rates {
+  padding: 20px 40px 53px;
+}
+
+.advantages__title_rates {
+  /* width: 528px; */
+  margin: 0 auto 16px; 
+}
+
+.rates-card {
+  padding: 40px 11px;
+  width: 336px;
+  height: 467px;
+}
+.rates__button {
+  margin-top: 24px;
+}
+}
+
+
+@media all and (max-width:950px) {
+  
+.footer__menu {
+  padding: 40px 40px 20px;
+grid-template-columns: 176px auto;
+grid-template-rows: auto auto auto;
+grid-template-areas: 
+  'logo logo'
+  'about-title docs-title'
+  'about docs';
+}
+
+.logo_footer {
+  margin-bottom: 35px;
+}
+.footer__title {
+  margin-bottom: 30px;
+}
+
+.burger {
+  display:block;
+}
+
+.burger__menu_opened {
+display: block;
+}
+
+.lending-menu_burger {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav__item_burger {
+  font-size: 20px;
+  font-weight: 600;
+  color: #171717;
+  text-align: center;
+  margin: 0 auto 16px
+}
+}
+
+
+
+
+@media all and (max-width:770px) {
+.about-project__info_big {
+  text-align: left;
+}
+.about-card__image {
+  box-sizing: border-box;
+  height: 280px;
+  object-fit: cover;
+}
+
+.about-project__image {
+  background-color: var(--color-light);
+  box-sizing: border-box;
+  height: 504px;
+  object-fit: cover;
+  padding: 75px;
+}
+.advantages__title_no-margin {
+  margin: 0;
+}
+.footer {
+  margin-top: 80px;
+}
+.footer__cookie-info {
+  padding: 16px 10px;
+}
+.footer__paragraph {
+  max-width: 618px;
+}
+}
+
+
+@media all and (max-width:765px) {
+  .rates__container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-project__image {
+    background-color:#F7F9FB ;
+    box-sizing: border-box;
+    height: auto;
+    object-fit: contain;
+    padding: 40px 0;
+  }
+}
+ 
+@media all and (max-width:600px) {
+
+  .burger {
+    margin-right: 15px;
+  }
+  .lending-header {
+    padding: 20px;
+  }
+  .logo__image {
+    display: block;
+    width: 36px;
+    height: 38px;
+  }
+  .logo__text_header {
+    display: none;
+  }
+  .lending__header__buttons {
+    width: auto;
+  }
+  .to-register {
+    display: none;
+  }
+  .to-login {
+    height: 34px;
+  }
+
+  .promo {
+    padding: 32px 20px 22px;
+  }
+  .promo-button {
+    height: 34px;
+  }
+  .promo__title {
+    font-size: 20px;
+  }
+  .promo__paragraph {
+    font-size: 14px;
+    max-width: 283px;
+  }
+  .about-card__image {
+    object-fit: contain;
+    height: auto;
+  }
+
+  .paragraph_big {
+    margin: 12px auto;
+    max-width: 335px;
+  }
+
+  .advantages__title {
+    font-size: 24px;
+  }
+
+  .about-card {
+    width: 248px;
+    height: 392px;
+  }
+
+  
+  .about-card__title {
+    margin-top: 20px;
+    padding-bottom: 4px;
+    font-size: 20px;
+  }
+
+  .about-card__title_big {
+    font-size: 24px;
+  }
+  
+  .about-card__image {
+    height: 175px;
+  }
+
+  .about-project {
+    padding: 40px 0 39px 20px;
+  }
+  
+  .about-project__info {
+    margin: 0 8px 24px;
+  }
+  
+  .about-card__paragraph {
+    font-size: 16px;
+    line-height: 130%;
+  }
+  .about-project__container_cards {
+    width: 780px;
+  }
+
+
+}
+    
+
+
+
+@media all and (max-width:380px) {
+
+  .lending-header {
+    padding: 12px 20px 12px 28px;
+  }
+
+  .burger {
+    margin-right: 12px;
+  }
+
+  .promo__paragraph {
+    margin: 8px 26px 20px;
+    max-width: 275px;
+  }
+
+  .promo-button {
+    margin: 0;
+    width: 100%;
+  }
+
+  .button {
+    font-size: 14px;
+  }
+  
+  .about-project__info_big {
+    margin: 0;
+  }
+
+  .about-project__container_big {
+    width: 100%;
+  }
+
+  .about-project__image {
+    max-width: 336px;
+  }
+
+  .promo-two {
+    background-image: none;
+    padding: 39px 20px;
+  }
+  .promo-two__logo {
+    width: 175px;
+    margin: 0 auto;
+  }
+  .promo-two__logo > .logo__image {
+    width: 60px;
+    height: 63px;
+  }
+  .promo-two__logo > .logo__text {
+    font-size: 14px;
+    line-height: 130%;
+  }
+
+
+  .advantages {
+    padding: 40px 0 40px 20px;
+  }
+  .advantages-card-info {
+    max-width: 208px;
+  }
+  .advantages__title_rates {
+    width: 100%;
+  }
+
+
+  .burger__button_white {
+    display: none;
+  }
+.burger__menu_opened {
+  min-height: auto;
+}
+
+  .rates {
+    padding: 20px 20px 40px;
+  }
+  .rates-card {
+    padding: 40px 20px 32px 20px ;
+  }
+
+  .rates-card__paragraph {
+    max-width: 263px;
+  }
+
+  
+  .footer {
+    margin-top: 80px;
+  }
+
+  .promo-two__logo {
+    width: 175px;
+    margin: 0 auto;
+  }
+  .logo_footer {
+  margin-bottom: 20px;
+  }
+  .logo_footer > .logo__image {
+    width: 60px;
+    height: 63px;
+  }
+
+  .footer__menu {
+    padding: 40px 20px 26px;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(5, auto);
+    grid-template-areas: 
+      'logo'
+      'about-title'
+      'about'
+      'docs-title'
+      'docs';
+  }
+
+  .footer__title {
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .footer-menu__paragraph {
+    margin-bottom: 12px;
+  }
+  .footer__paragraph {
+    font-size: 14px;
+  }
+  .footer__cookie-info {
+    display: block;
+  }
+  .footer__paragraph {
+    font-size: 16px;
+    text-align: center;
+  }
+  .footer__button {
+    margin:  10px auto 0;
+  }
+  
+}
+
+
+

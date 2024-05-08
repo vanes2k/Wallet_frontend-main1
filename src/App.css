@@ -1,0 +1,306 @@
+
+html {
+  scroll-behavior: smooth;
+}
+
+.page {
+  background-color: #282c34;
+  min-height: 100vh;
+}
+
+.page__content {
+  margin: 0 auto;
+  max-width: 1440px;
+  position: relative;
+}
+
+@media all and (max-width: 768px) {
+  .page__content {
+    max-width: 768px;
+  }
+}
+
+.page_theme_ligth {
+  --bell-icon: url(./images/technically-icons/icon-bell.svg);
+  --plus-icon: url(./images/technically-icons/plus-icon.svg);
+  --minus-icon: url(./images/technically-icons/minus-icon.svg);
+  --go-back-icon: url(./images/technically-icons/toLeft-icon.svg);
+  --exit-icon: url(./images/technically-icons/exit-icon.svg);
+  --dropdown: url(./images/technically-icons/arrowup.svg);
+  --calendar: url(./images/technically-icons/calendar-icon.svg);
+  --items: url(./images/technically-icons/items-icon.svg);
+
+  --color-text-head: #1A4B5F;
+  --color-text-grey: #6A6B6C;
+  --color-text-blue: #0047FF;
+
+  --color-light-grey: #F7F9FB;
+  --color-blue-grey: #E8EBF2;
+
+  --color-light-grey-button: #EAEAEA;
+
+  --color-black: #171717;
+  --color-white: #FEFEFE;
+  --color-light: #F7F9FB;
+  --color-grey: #A6A6A6;
+
+  --light-theme-white: #FEFEFE;
+  --light-theme-grey: #EAEAEA;
+
+  --orange-button-default: #FF9E89;
+  --orange-button-hover: #FF937C;
+  --orange-button-pressed: #FF876D;
+  --orange-button-disabled: #F9C9BE;
+
+  --color-button-disabled: #EBEDEF;
+
+  --color-modal: #173C4B;
+
+  --error: #E12828;
+  --success: #0CAE56;
+
+  
+}
+
+.page_theme_dark {
+  --bell-icon: url(./images/technically-icons/icon-bell_dark.svg);
+  --plus-icon: url(./images/technically-icons/plus-icon_dark.svg);
+  --minus-icon: url(./images/technically-icons/minus-icon_dark.svg);
+  --go-back-icon: url(./images/technically-icons/to-left_dark.svg);
+  --exit-icon: url(./images/technically-icons/exit-icon_dark.svg);
+  --dropdown: url(./images/technically-icons/arrowdown-dark.svg);
+  --calendar: url(./images/technically-icons/calendar-icon_dark.svg);
+
+  --color-black: #FEFEFE;
+  --color-white: #1A3844;
+  --color-light: #173E4F;
+  --color-grey: #A6A6A6;
+  --color-text-blue: #0047FF;
+
+  --color-text-head:#FEFEFE;
+  --color-light-grey: #1A4B5F;
+  --color-blue-grey: #1A4B5F;
+  --color-text-grey: #EAEAEA;
+
+  --color-light-grey-button: #EAEAEA;
+
+  --light-theme-white: #000000;
+
+  --orange-button-default: #FF9E89;
+  --orange-button-hover: #FF937C;
+  --orange-button-pressed: #FF876D;
+  --orange-button-disabled: #F9C9BE;
+
+  --color-modal: #1A3844;
+
+  --error: #E12828;
+  --success: #0CAE56;
+}
+
+
+/* ////////////////////////////////////////// */
+
+.title {
+  text-align: center;
+  font-size: 38px;
+  color: var(--color-text-head);
+  font-style: normal;
+  font-weight: 600; 
+  line-height: 130%;
+  margin: 0;
+}
+.title_narrow {
+  font-weight: 500; 
+}
+.title_l {
+  font-size: 48px;
+}
+.title_m {
+  font-size: 28px !important;
+}
+.title_s {
+  font-size: 24px;
+  font-weight: 700; 
+}
+
+/* /////////////////////////////////////////// */
+
+.paragraph{
+  margin: 0;
+  color: var(--color-black);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 130%;
+}
+
+.paragraph_l {
+  font-size: 18px;
+  line-height: 150%
+}
+
+.paragraph_m {
+  font-size: 14px;
+  line-height: 130%;
+}
+
+/* //////////////////////////////////////////////// */
+
+.link {
+  color: var(--color-black);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 130%;
+  /* text-decoration: none; */
+}
+
+.link:hover {
+  color: var(--orange-button-hover);
+}
+
+.link_m {
+  font-size: 14px;
+}
+
+/* ///////////////////////////////////////////////// */
+
+.form__label {
+  width: 100%;
+  display: inline-block;
+  color: var(--color-black);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+  min-height: 100px;
+}
+.form__input {
+  font-family: "Manrope", Arial, sans-serif;
+
+  color: var(--color-black);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  box-sizing: border-box;
+  padding: 0 20px 0 20px;
+  width: 100%;
+  height: 52px;
+  background-color: transparent;
+  border: 1px solid var(--color-light-grey-button);
+  border-radius: 40px;
+}
+/* это стили для невалидного поля. но пока нет логики - выключено */
+/* .form__input:invalid {
+    color: #E12828;
+    border-color: #E12828;
+} */
+
+/* .form__input:focus {
+  border: 1px solid var(--color-grey);
+} */
+
+.form__input:focus {
+  outline: none;
+  border: 2px solid  var(--color-grey);
+  color: var(--color-black);
+}
+
+
+.form__item-error {
+  width: 100%;
+  background-image: url('./images/technically-icons/formError-icon.svg');
+  background-position: left;
+  background-position-y: 4px;
+  background-repeat: no-repeat;
+  /* display: inline-block; */
+  display: block;
+  color: var(--error); 
+  padding-left: 15px;
+  /* margin-bottom: 8px; */
+  font-size: 14px;
+  /* margin-top: 8px; */
+  font-weight: 400;
+}
+.form__item-error:empty {
+  display: none;
+}
+
+/* ///////////////////////////////// */
+
+.button {
+  color: #171717;
+  font-family: "Manrope", Arial, sans-serif;
+  font-weight: 600;
+  line-height: 130%;
+  font-size: 16px;
+}
+/* оранжевая кнопка и ее состояния */
+.orange-button {
+  position: relative;
+  box-sizing: border-box;
+  background-color: var(--orange-button-default);
+  border-radius: 40px;
+  height: 52px;
+  border: 0;
+  width: 100%;
+
+  margin-top: 32px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.orange-button:hover {
+  cursor: pointer;
+  background-color: var(--orange-button-hover);
+  box-shadow: 0px 4px 8px 0px rgba(215, 68, 5, 0.25);
+}
+
+.orange-button:disabled {
+  background:  var( --orange-button-disabled);
+  color: var(--color-text-grey);
+  border: var(--orange-button-disabled);
+  box-shadow: 0px 4px 8px 0px rgba(215, 68, 5, 0.25);
+}
+
+.orange-button:active {
+  background-color: var(--orange-button-pressed);
+  box-shadow: 0px 4px 8px 0px rgba(215, 68, 5, 0.25);
+}
+
+
+/* белая кнопка и ее состояния */
+.white-button {
+  color: var(--color-black);
+  box-sizing: border-box;
+  background-color: var(--color-white);
+  border: 2px solid  var(--orange-button-default);
+  border-radius: 40px;
+  height: 52px;
+
+  margin-top: 16px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.white-button:hover {
+  cursor: pointer;
+  box-shadow: 0px 4px 8px 0px rgba(215, 68, 5, 0.25);
+}
+
+.white-button:disabled {
+  background-color: var(--color-white);
+  background-color: var(--orange-button-disabled);
+  color: var(--color-text-grey);
+}
+
+
+.button-s {
+  width: 252px;
+  margin: 0;
+ }
+
+

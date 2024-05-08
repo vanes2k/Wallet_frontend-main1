@@ -1,0 +1,126 @@
+.popup {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  visibility: hidden;
+  border-radius: 40px;
+  opacity: 0;
+  transition: visibility 0.2s, opacity 0.2s linear;
+  box-sizing: border-box;
+  width: 1440px;
+  height: 1024px;
+
+  background-color: rgba(33, 81, 102, 0.7);
+  z-index: 5;
+
+}
+
+.popup_opened {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup__container {
+  box-sizing: border-box;
+  width: 600px;
+  min-height: 800px;
+  background-color: var(--color-white);
+  border-radius: 40px;
+  padding: 40px 40px 0;
+  position: relative;
+  box-shadow: 4px 4px 8px 0px rgba(166, 166, 166, 0.15);
+
+  margin: 112px auto;
+}
+
+.popup__header {
+  display: grid;
+  /* row-gap: 14px; */
+  align-items: center;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: auto auto;
+  padding-bottom: 24px;
+  border-bottom: 1px solid var(--color-text-head);
+
+}
+
+.popup__title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-column: 2/3;
+  grid-row: 1/2;
+  font-size: 24px;
+  font-weight: 600;
+}
+.popup__title_big {
+  font-size: 28px;
+  /* font-weight: 600; */
+}  
+
+.popup__paragraph {
+  margin-top: 12px;
+  text-align: center;
+  max-width: 440px;
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+.popup__go-back-button {
+  justify-self: start;
+  background-image: var(--go-back-icon);
+  background-repeat: no-repeat;
+  width: 24px;
+  height: 24px;
+  border: 0;
+  background-color: transparent;
+  padding: 0;
+
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+.popup__go-back-button:hover {
+  cursor: pointer;
+}
+
+.popup__go-back-button_none {
+  visibility: hidden;
+}
+
+.close-button {
+  justify-self: end;
+  grid-column: 3/4;
+  grid-row: 1/2;
+  background-image: var(--exit-icon);
+  background-repeat: no-repeat;
+  width: 24px;
+  height: 24px;
+  border: 0;
+  background-color: transparent;
+  padding: 0;
+}
+
+.close-button:hover {
+  cursor: pointer;
+}
+.bg-grey-edit{
+  background-color: var(--light-theme-grey);
+}
+.bg-white-light{
+  background-color: var(--color-white);
+}
+
+
+@media screen and (max-height: 1024px) and (min-height: 800px) {
+  .popup {
+    height: 100vh;
+  }
+}
+
+@media screen and (max-height: 1000px) and (min-height: 799px) {
+  .popup__container {
+    scale: 0.8;
+    margin: 0 auto;
+  }
+}

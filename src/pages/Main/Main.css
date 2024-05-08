@@ -1,0 +1,21 @@
+.main {
+  display: grid;
+  grid-template-columns: 2 auto;
+  grid-template-rows: 100px auto;
+  grid-template-areas: 
+    'sidebar header'
+    'sidebar main';
+  background-color: var(--color-light-grey);
+  max-height: 1024px;
+  height: 100vh;
+  min-height: 800px;
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+
+/* @media screen and (max-height: 1024px) and (min-height: 800px) {
+  .main {
+    height: 100vh;
+  }
+} */

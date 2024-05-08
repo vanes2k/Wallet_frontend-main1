@@ -1,0 +1,28 @@
+.popup__notification {
+  width: 454px!important;
+  min-height: 320px!important;
+  padding: 20px!important;
+  border-radius: 24px!important;
+}
+.notification-time {
+  color: var(--color-grey);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+  margin: 8px 0;
+}
+.notification-title {
+  color: var(--color-black);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  margin: 0 0 8px;
+}
+.button_notification {
+  margin-top: 24px;
+}
+.notification__close-button {
+margin-left: 394px;
+}

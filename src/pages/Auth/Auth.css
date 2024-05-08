@@ -1,0 +1,24 @@
+.auth {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: right;
+  max-width: 1440px;
+  max-height: 1024px;
+  height: 100vh;
+  min-height: 800px;
+  padding: 112px 70px;
+  background-image: url('../../images/auth-background.png');
+  background-size: cover;
+  margin: 0 auto;
+}
+
+
+
+@media screen and (max-height: 1000px) and (min-height: 799px) {
+  .auth {
+    padding: 40px 70px;
+  }
+  .auth-container {
+    scale: 0.8;
+  }
+}

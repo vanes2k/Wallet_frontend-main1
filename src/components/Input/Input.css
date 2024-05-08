@@ -1,0 +1,73 @@
+.big-dropdown {
+  width: 520px;
+}
+
+
+.react-datalist-input__container {
+  width: 100%;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.react-datalist-input__listbox {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  z-index: 5;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-grey);
+  border-radius: 40px;
+}
+
+.react-datalist-input__listbox-option {
+  box-sizing: border-box;
+  padding: 12px 40px;
+  width: 100%;
+  height: 52px;
+  list-style: none;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  color: var(--color-black);
+  border-bottom: 1px solid var(--color-grey);
+}
+
+.react-datalist-input__listbox-option:last-child {
+  border-bottom: 0;
+}
+
+.react-datalist-input__listbox-option:hover {
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.react-datalist-input__textbox {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  margin: 12px 0 0;
+  background-color: transparent;
+
+  border: 1px solid var(--color-light-grey-button);
+  box-sizing: border-box;
+  padding: 0 20px;
+  width: 100%;
+  height: 52px;
+  border-radius: 40px;
+
+}
+.react-datalist-input__textbox:focus {
+  outline: none;
+  border: 2px solid  var(--color-grey);
+  color: var(--color-black);
+}
+.react-datalist-input__label {
+  color: var(--color-black);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+}

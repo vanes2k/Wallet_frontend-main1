@@ -1,0 +1,118 @@
+:root {
+  --span-percent-color: #75b69b;
+  --span-color: #6ae332;
+  --border-color: #ffc896;
+  --color-text-head: #1a4b5f;
+}
+.statistic__section * {
+  font-family: "Manrope";
+}
+.statistic__section {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.statistic__section-sota_wrapper {
+  width: 90%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 18% 18% 28% 18% 18%;
+  overflow: visible;
+}
+.statistic__section-sota_card {
+  display: grid;
+  grid-template-rows: 17% 17% 17% 17% 17%;
+  row-gap: 4%;
+  height: 90%;
+  justify-content: center;
+}
+.statistic__section-sota_card-list {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.statistic__section-sota_card:nth-child(2n) {
+  transform: translateY(18%);
+}
+.statistic__section-sota_card:nth-child(2n + 1) {
+  transform: translateY(7%);
+}
+.statistic__section-sota_card:nth-child(3) {
+  transform: translateY(3.5%);
+}
+.statistic__section-sota_card-list_precent {
+  color: var(--span-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 600;
+  color: #85bea7;
+}
+.statistic__section-sota_card-list_precent-number {
+  display: flex;
+  align-items: flex-end;
+}
+.statistic__section-sota_card-list_price {
+  border: 1px solid var(--border-color);
+  color: var(--color-text-head);
+  border-radius: 20px;
+  padding: 10px 15px;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+  margin: 0.5rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.statistic__section-sota_card-list_price span {
+  margin-left: 5px;
+}
+.statistic__section-sota_card_sota-wrapper {
+  position: relative;
+  width: 170px;
+  height: 146px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.statistic__section-sota_card_sota-wrapper-sota:before,
+.statistic__section-sota_card_sota-wrapper-sota:after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+  transform-origin: center;
+  border: inherit;
+  background-color: transparent;
+}
+.statistic__section-sota_card_sota-wrapper-sota:before {
+  transform: rotateZ(61deg);
+  border-radius: 24px 22px 22px 24px;
+}
+.statistic__section-sota_card_sota-wrapper-sota:after {
+  transform: rotateZ(-60deg);
+  border-radius: 24px 22px 22px 20px;
+}
+.statistic__section-sota_card_sota-wrapper-sota {
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  height: 100%;
+  border-radius: 20px 22px 22px 20px;
+  border-top: 2px solid var(--border-color);
+  border-bottom: 2px solid var(--border-color);
+  color: black;
+}

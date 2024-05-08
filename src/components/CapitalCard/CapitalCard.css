@@ -1,0 +1,214 @@
+.capital {
+  /* position: relative; */
+  grid-area: main;
+padding: 20px 40px 0;
+  display: grid;
+  grid-template-rows: min-content min-content min-content min-content min-content;
+  grid-template-columns: auto auto;
+  background-color: var(--color-light);
+  border-radius: 0 0 40px 0;
+}
+
+.capital-card {
+  position: relative;
+  grid-row: 2/3;
+  grid-column: 1/3;
+}
+
+
+.swing-button__container_capital-card {
+  grid-row: 1/2;
+  grid-column: 2/3;
+
+  justify-self: end;
+  width: 201px;
+  height: 52px;
+}
+
+
+.swing-button_card {
+  position: absolute;
+  width: 95px;
+  top:0;
+  left: 0;
+  z-index: 1;
+  text-align: left;
+  padding-left: 24px;
+}
+
+.swing-button_list {
+  position: absolute;
+  width: 106px;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  text-align: right;
+  padding-right: 24px;
+}
+
+.capital-card__info {
+  width: 404px;
+  text-align: center;
+  margin: 68px auto 0;
+}
+
+.info__title {
+  color: var(--color-black);
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+  margin: 0 auto 12px;
+}
+
+.container__sota {
+  width: 1000px;
+  max-height: 500px;
+  height: auto;
+  min-height: 350px;
+}
+
+.sota-wrapper {
+  position: relative;
+  top: 40px;
+ left: 38%;
+  width: 316px;
+height: 282px;
+  /* margin: 20px auto 0; */
+  display: space-evenly;
+  justify-content: center;
+  align-items: center;
+  /* background-color: var(--color-black); */
+}
+
+.sota {
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(180deg,rgba(158,206,226,1)0%, rgba(50,126,157,1) 100%);
+  width: 55%;
+  height: 100%;
+  border-radius: 18px;
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  box-shadow: 4px 8px 16px rgba(28, 88, 113, 0.30);
+  margin-bottom: 50px;
+
+}
+
+.sota:before,
+.sota:after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+  transform-origin: center;
+  border: inherit;
+}
+.sota:before {
+  transform: rotateZ(61deg);
+  border-radius: 11px 22px 23px 20px;
+  background: linear-gradient(120deg,rgba(158,206,226,1)0%, rgba(50,126,157,1) 100%);
+
+}
+.sota:after {
+  transform: rotateZ(-60deg);
+  border-radius: 23px 15px 23px 25px;
+  background: linear-gradient(240deg,rgba(158,206,226,1)0%, rgba(50,126,157,1) 100%);
+}
+
+
+.sota-paragraph {
+  font-size: 20px;
+  position: absolute;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+  color: #fff;
+  z-index: 3;
+  margin: 0 ;
+  text-align: center;
+  width: 100%;
+  top: 40px;
+}
+
+.sota-button {
+  position: absolute;
+  bottom: 94px;
+  border: 0;
+  width: 80px;
+  aspect-ratio: 1/1;
+  border-radius: 40px;
+  background-color: var(--orange-button-default);
+  background-image: url('../../images//technically-icons/plus-icon.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 3;
+}
+
+.sota-button:hover {
+  cursor: pointer;
+  background-color: var(--orange-button-hover);
+  box-shadow: 0px 4px 8px 0px rgba(215, 68, 5, 0.25);
+}
+.sota-button:active {
+  background-color: var(--orange-button-pressed);
+}
+
+
+
+.zoom-button {
+  position: absolute;
+  /* top: 0; */
+  right: 0;
+  width: 32px;
+  height: 80px;
+  background-color: var( --color-white);
+  border-radius: 16px;
+  /* border: 1px solid red; */
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.size {
+ width: 32px;
+  height: 32px;
+  border-radius: 40px;
+  border: 0;
+}
+.size:hover {
+  cursor: pointer;
+}
+
+
+.size_plus {
+  background: var(--plus-icon) no-repeat center;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10);
+}
+
+
+.size_minus {
+  background: var(--minus-icon) no-repeat center;
+}
+
+
+
+/* .transform-component-module_wrapper__SPB86 {
+  width: 100%;
+  height: 100%;
+}
+.transform-component-module_content__FBWxo {
+
+} */
+
+
+
+/* @media screen and (max-height: 1024px) and (min-height: 800px) {
+  .container__sota {
+    height: 400px;
+  }
+} */

@@ -1,0 +1,46 @@
+details .drop__paragraph {
+    list-style: none;
+    margin-bottom: 20px;
+}
+.drop__paragraph::after{
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    left: 20px;
+    content: " ";
+    background-image: var(--dropdown);
+    background-size: 90%;
+    transform: rotate(180deg);
+}
+.drop-container{
+    overflow: scroll;
+    width: 70%;
+    height: 670px;
+}
+.drop-container::-webkit-scrollbar{
+    display: none;
+}
+details[open] summary::after{
+    background-image: var(--dropdown);
+    transform: rotate(0deg);
+}
+.drop__paragraph{
+    font-weight: 600;
+}
+.link-underline{
+    font-weight: 500;
+    text-decoration-line: underline;
+}
+.drop__text{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+@media screen and (max-height: 1024px) and (min-height: 800px) {
+    .drop-container{
+        height: 450px;
+    }
+}

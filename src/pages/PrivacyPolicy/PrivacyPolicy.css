@@ -1,0 +1,72 @@
+.privacy-policy {
+  box-sizing: border-box;
+  padding: 32px 70px 0;
+}
+
+.privacy-policy__title {
+  color: var(--color-black);
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+  padding-bottom: 8px;
+  margin: 0;
+}
+
+.privacy-policy__subtitle {
+  color: var(--color-black);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+  padding: 32px 0 20px;
+  margin: 0;
+}
+
+.privacy-policy__paragraph {
+  margin-bottom: 16px;
+}
+
+.privacy-policy__link {
+  color: var(--color-black);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 130%;
+}
+
+.privacy-policy__link:hover {
+  color: var(--orange-button-hover);
+}
+
+
+
+@media all and (max-width:770px) {
+  .privacy-policy {
+    padding: 16px 40px 0;
+  }
+
+  .privacy-policy__subtitle {
+
+    padding: 16px 0 20px;
+  }
+}
+
+
+@media all and (max-width:450px) {
+  .privacy-policy {
+    padding: 8px 20px 0;
+  }
+  .privacy-policy__title {
+    text-align: center;
+    padding-bottom: 16px;
+  }
+  .privacy-policy__subtitle {
+    font-size: 16px;
+    padding: 8px 0 12px;
+  }
+  .privacy-policy__paragraph {
+    font-size: 14px;
+  }
+  
+}
+

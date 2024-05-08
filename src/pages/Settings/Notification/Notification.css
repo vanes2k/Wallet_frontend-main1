@@ -1,0 +1,28 @@
+.notification-paragraph{
+    width: 530px;
+}
+.notification-header{
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--light-theme-grey);
+}
+.divisions{
+    font-size: 20px;
+    color: var(--color-black);
+    margin-bottom: 10px;
+    margin-top: 35px;
+}
+.switch-text{
+    font-size: 20px;
+    color: var(--color-text-head);
+}
+.notice{
+    display: flex;
+    align-items: center;
+}
+.switch-button .checkbox{
+    margin: 0 0 15px 0;
+}
+.switch-text{
+    width: 400px;
+    margin-right: 77px;
+}

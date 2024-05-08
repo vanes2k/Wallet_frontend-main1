@@ -1,0 +1,245 @@
+.all-assets {
+  display: flex;
+  justify-content: space-between;
+}
+
+.all-assets__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 317px;
+  grid-column: 1/1;
+  grid-row: 1/3;
+  text-align: center;
+}
+
+.card-list {
+  margin: 31px 0px 31px 19px;
+  grid-row: 2/3;
+  grid-column: 2/3;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: auto auto;
+  gap: 12px;
+}
+
+.card {
+  position: relative;
+  border: 0;
+  padding: 24px 0px 24px 16px;
+  box-sizing: border-box;
+  background-color: var(--color-white);
+  border-radius: 40px;
+  width: 246px;
+  height: 147px;
+}
+.card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 40px; 
+  padding: 3px;  
+
+  -webkit-mask: 
+  linear-gradient(var(--color-light-grey) 0 0) content-box, 
+  linear-gradient(var(--color-light-grey) 0 0); 
+  -webkit-mask-composite: xor;
+  mask-composite: exclude; 
+}
+
+#card1::before {
+  background:linear-gradient(rgba(255, 200, 150, 0.8), rgba(255, 200, 150, 0.25)); 
+}
+
+#card2::before {
+  background:  linear-gradient(rgba(158, 125, 255, 1), rgba(158, 125, 255, 0.25));
+}
+#card3::before {
+background:  linear-gradient(rgba(112, 153, 255, 1), rgba(112, 153, 255, 0.25));
+}
+#card4::before {
+  background: linear-gradient(rgba(161, 205, 244, 1), rgba(161, 205, 244, 0.25));
+}
+#card5::before {
+  background: linear-gradient(rgba(117, 182, 155, 1), rgba(117, 182, 155, 0.25));
+}
+#card6::before {
+  background: linear-gradient(rgba(255, 125, 173, 1), rgba(255, 125, 173, 0.25));
+}
+
+.setting .all-assets__title {
+  color:  var(--color-text-head);
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+  margin: 0 0 50px;
+}
+
+.setting{
+  position: relative;
+  padding: 20px 40px 0;
+  background-color: var(--color-light);
+}
+
+.paragraph_all-assets {
+  max-width: 248px;
+}
+
+.card-title {
+  display: inline-flex;
+  align-items: center;
+  margin: 0;
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%; 
+  text-decoration-line: underline;
+  color: var(--color-text-head);
+}
+
+.card-sum {
+  margin: 20px 0 0;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  color: var(--color-text-head);
+}
+
+.card-icon {
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+  margin-right: 12px;
+  background-color: var(--color-light);
+  border-radius: 16px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.realty {
+  background-image: url('../../images/active-icon/icon-realty.svg');
+}
+
+.realty {
+  background-image: url('../../images/active-icon/icon-realty.svg');
+}
+
+
+.bitcoin {
+  background-image: url('../../images/active-icon/icon-bitcoin.svg');
+}
+.deposit {
+  background-image: url('../../images/active-icon/icon-vklad.svg');
+}
+.transport {
+  background-image: url('../../images/active-icon/icon-transport.svg');
+}
+.digital-ruble {
+  background-image: url('../../images/active-icon/icon-realty.svg');
+}
+.broker-account {
+  background-image: url('../../images/active-icon/icon-realty.svg');
+}
+
+
+.capital__nav {
+  box-sizing: border-box;
+  padding: 8px 24px;
+  display: flex;
+  /* justify-content: space-between; */
+  width: 100%;
+  grid-column: 1/3;
+  grid-row: 4/5;
+  height: 60px;
+  background-color: var(--color-white);
+}
+
+.capital__items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  grid-column: 1/3;
+  grid-row: 5/6;
+  /* border: 2px solid red; */
+}
+
+.sota-button_capital {
+  position: static;
+  padding: 0;
+  bottom: 0;
+}
+
+.paragraph_items {
+  color: var(--color-black);
+  max-width: 231px;
+  text-align: center;
+  margin: 12px 0 16px;
+}
+
+.paragraph_nav {
+  font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 130%;
+  color: var(--color-grey);
+}
+
+.nav-wrapper {
+  margin-left: 170px;
+
+  display: flex;
+  width: 400px;
+  justify-content: space-between;
+}
+
+.setting .select-currency{
+  width: 55%;
+}
+
+.setting .active-form__label {
+  font-weight: 300;
+}
+
+.setting .radio-wraper{
+  margin-top: 30px;
+}
+
+.setting .small{
+  font-size: 23px;
+  margin: 35px 0 20px 0;
+}
+
+.nav__button {
+  border: 0;
+  padding: 10.5px 10px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+  background-color: var(--color-white);
+  color: var(--color-grey);
+}
+
+.nav__button:hover {
+  cursor: pointer;
+}
+
+#activ {
+  padding: 10.5px 27px;
+}
+#more {
+  width: 122.6px;
+  background: url('../../images/technically-icons/items-icon.svg') no-repeat center;
+}
+.title-margin{
+  margin-bottom: 30px!important;
+}
+.table__score {
+  height: 240px;
+  overflow: scroll
+}

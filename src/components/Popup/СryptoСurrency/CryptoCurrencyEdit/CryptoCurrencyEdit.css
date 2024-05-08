@@ -1,0 +1,10 @@
+.form-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 60%;
+}
+.border-top{
+    border-top: 1px solid var(--color-grey);
+    width: 93%;
+}

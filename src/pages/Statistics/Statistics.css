@@ -1,0 +1,108 @@
+.statistics {
+  background-color: var(--color-light);
+  border-radius: 0 0 40px 0;
+  padding: 0 45px;
+}
+.statistics__bag{
+  padding-top: 40px;
+}
+.bag__item{
+  width: 277px;
+  height: 93px;
+  border: 2px solid var(--color-text-head);
+  padding: 32px 20px;
+  border-radius: 32px;
+  display: flex;
+  background-color: var(--color-light);
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 10px 20px 0;
+}
+.paragraph_xl{
+  font-size: 28px;
+  font-weight: 600;
+}
+.color-header{
+  color: var(--color-text-head);
+}
+.paragraph-s{
+  font-size: 14px;
+}
+.text-green{
+  color: var(--success);
+}
+.bag__item-money{
+  display: flex;
+  align-items: center;
+}
+.margin-left{
+  margin-left: 10px;
+}
+.statistics__bag{
+  display: flex;
+}
+.table-active{
+  margin-top: 60px;
+}
+.table__statistics{
+  margin-top: 30px;
+  background-color: var(--color-light) !important;
+}
+.w-60{
+  width: 60%;
+  padding-left: 24px !important;
+}
+.w-10{
+  width: 10%;
+  text-align: center;
+}
+.statistics{
+  height: 924px;
+  overflow: scroll;
+}
+.statistics::-webkit-scrollbar{
+  display: none;
+}
+.cost__active{
+  margin-top: 100px;
+}
+.cost__active-chart{
+  width: 494px;
+  height: 432px;
+  padding: 49px 23px;
+  border-radius: 40px;
+  background-color: var(--color-light);
+}
+.cost__active-charts{
+  display: flex;
+  justify-content: space-between;
+}
+.calendar{
+  background-image: url("../../images/technically-icons/calendar.svg");
+}
+.ico{
+  width: 24px;
+  height: 24px;
+}
+.date-text{
+  margin-left: 8px;
+  color: var(--color-text-blue);
+}
+.button__date{
+  width: 162px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--color-text-blue);
+  border-radius: 16px;
+  padding: 8px 12px;
+}
+.cost__active-date{
+  margin: 20px 0;
+}
+.dynamics-chart{
+  width: 1100px;
+  height: 682px;
+  border-radius: 40px;
+  background-color: var(--color-light);
+}

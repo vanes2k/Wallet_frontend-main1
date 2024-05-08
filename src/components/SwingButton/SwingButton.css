@@ -1,0 +1,35 @@
+.swing-button__container {
+  box-sizing: border-box;
+  background-color: var(--color-blue-grey);
+  border-radius: 40px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.swing-button {
+  box-sizing: border-box;
+  color: var(--color-black);
+  height: 100%;
+  border-radius: 40px;
+  border: 2px solid  var(--color-text-head);
+  background-color: var(--color-white);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 130%;
+  padding: 0 22.5px 0;
+}
+  
+.swing-button:hover {
+  cursor: pointer;
+}
+
+.swing-button_disabled {
+  background-color: var(--color-blue-grey);
+opacity: 0.4;
+  border: 0;
+  z-index: 0;
+}
+
+.margin-swing{
+  /* margin: 0 11px 0 0; */
+}

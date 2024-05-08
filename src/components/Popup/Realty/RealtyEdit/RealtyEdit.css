@@ -1,0 +1,141 @@
+.edit .popup__header{
+    padding: 0 0 10px 0;
+}
+.drop-edit-text{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.drop-edit-text::before{
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    position: relative;
+    left: -5px;
+    content: " ";
+    background-image: var(--dropdown);
+    background-size: 90%;
+}
+details[open] .drop-edit-text::before{
+    background-image: var(--dropdown);
+    transform: rotate(180deg);
+}
+.edit-chart{
+    width: 100%;
+    height: 250px;
+}
+.realty-edit-box{
+    width: 600px;
+    height: 800px;
+    border-radius: 40px 0 0 40px;
+    padding: 15px 24px 0 24px;
+}
+.drop-edit-text{
+    font-weight: 600;
+    font-size: 20px;
+    padding-bottom: 10px;
+    position: relative;
+}
+.center{
+    justify-content: center;
+}
+.bg-grey::-webkit-scrollbar{
+    display: none;
+}
+.bg-grey-full::-webkit-scrollbar{
+    display: none;
+}
+.bg-grey{
+    height: 270px;
+    min-height: 100px;
+    overflow: scroll;
+    padding: 16px 24px 40px 24px;
+    background-color: var(--color-light-grey-button);
+}
+.bg-grey-full{
+    height: 330px;
+    min-height: 100px;
+    overflow: scroll;
+    padding: 16px 24px 40px 24px;
+    background-color: var(--color-light-grey-button);
+}
+
+.h-100{
+    height: 100% !important;
+}
+
+.bg-white{
+    background-color: var(--color-light);
+}
+.edit .react-datepicker__input-container input{
+    background-color: var(--light-theme-white);
+}
+.checkbox-edit{
+    margin: 10px 0 10px 0;
+}
+.select-item{
+    width: 100%;
+}
+.edit-on{
+    width: 24px;
+    height: 24px;
+    float: right;
+    background-repeat: no-repeat;
+    background-image: var(--items);
+    background-size: 90%;
+    margin-left: auto;
+    cursor: pointer;
+}
+summary{
+    cursor: pointer;
+}
+.edit-on-button{
+    font-size: 14px;
+    position: absolute;
+    transform: translate(50px, -15px);
+    display: none;
+    background-color: var(--color-white);
+    width: 188px;
+    border-radius: 16px;
+    padding: 0 16px 0 0;
+}
+.button-disabled{
+    display: none;
+}
+.margin-bottom{
+    margin-bottom: 10px !important;
+}
+.input-disabled{
+    border: 2px solid var(--color-grey)
+}
+.react-datepicker__input-container input[disabled] {
+    background-color: var(--light-theme-grey);
+    border: 2px solid var(--color-grey)
+}
+.button-edit{
+    width: 100%;
+    height: 25px;
+    cursor: pointer;
+    padding: 8px 0 8px 16px;
+}
+.button-edit:hover{
+    background-color: var(--orange-button-default);
+    color: var(--color-white);
+}
+.button-top{
+    border-radius: 16px 16px 0 0;
+}
+.button-bottom{
+    border-radius: 0 0 16px 16px;
+}
+.button__edit-box{
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.button-custom{
+    width: 93%;
+    margin: 0 auto;
+}

@@ -1,0 +1,58 @@
+.margin-right{
+    margin-right: 20px;
+}
+.button-l{
+    width: 316px;
+}
+.button-flex{
+    display: flex;
+    justify-content: left;
+}
+.delete__account{
+    margin-top: 80px;
+}
+.float-right{
+    float: right;
+}
+.margin-form{
+    margin-top: 25px !important;
+}
+.link-s{
+    font-size: 14px;
+    margin-top: 5px;
+}
+.margin-top-button{
+    margin-top: 20px;
+}
+
+.profile {
+  max-width: 540px;
+  height: 100%;
+  max-height: 700px;
+  overflow-y: scroll;
+  padding: 16px 0 32px ;
+}
+.profile::-webkit-scrollbar {
+  width: 0;
+}
+
+.profile__title {
+  color:  var(--color-text-head);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  margin: 0 0 24px
+}
+
+@media screen and (max-height: 1023px) and (min-height: 800px) {
+    .profile__form .orange-button{
+        margin: 0;
+    }
+    .delete__account{
+        margin-top: 40px;
+    }
+    .profile {
+      height: 510px;
+    } 
+}
